@@ -1,10 +1,15 @@
 {
-  "name": "redis-cache-util",
+  "name": "@teamtigerking/redis-cache-util",
   "version": "1.0.0",
   "description": "Reusable Redis caching utility for Node.js microservices with lock-and-fetch support.",
-  "main": "src/app.mjs",
+  "type": "module",
+  "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Teamtigerking/redis-cache-util"
   },
   "keywords": [
     "[\"redis\"",
