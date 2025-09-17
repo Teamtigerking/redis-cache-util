@@ -1,0 +1,18 @@
+{
+  "name": "redis-cache-util",
+  "version": "1.0.0",
+  "description": "Reusable Redis caching utility for Node.js microservices with lock-and-fetch support.",
+  "main": "src/app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "[\"redis\"",
+    "\"cache\"",
+    "\"nodejs\"",
+    "\"microservices\"",
+    "\"lock-and-fetch\"]"
+  ],
+  "author": "Abhishek Sharma",
+  "license": "MIT"
+}
