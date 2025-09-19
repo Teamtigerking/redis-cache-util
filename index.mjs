@@ -1,2 +1,2 @@
-import CacheService from './services/cacheService.mjs';
+import CacheService from './src/cache.service.mjs';
 export { CacheService };
