@@ -19,7 +19,7 @@ npm install @teamtigerking/redis-cache-util
 
 ```js
 import { createClient } from 'redis';
-import CacheService from '@teamtigerking/redis-cache-util';
+import { CacheService } from '@teamtigerking/redis-cache-util';
 
 const redisClient = createClient();
 await redisClient.connect();
@@ -35,7 +35,7 @@ const data = await cache.get('product:123', async () => {
 
 ```js
 import { createClient } from 'redis';
-import CacheService from '@teamtigerking/redis-cache-util';
+import { CacheService } from '@teamtigerking/redis-cache-util';
 
 const redisClient = createClient();
 await redisClient.connect();
